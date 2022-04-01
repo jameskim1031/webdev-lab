@@ -12,9 +12,20 @@ Feel free to borrow from Exercise 1.
 */
 
 
+@media screen and (min-width: 1000px) {
+    .big-screens {
+       display: inline-block;
+    }
+ }
+
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+    body{
+        background: teal;
+    }
+    .tablets-portrait {
+        display: block;
+    }
 }
 
 /* Mobile Phone Media Query */
